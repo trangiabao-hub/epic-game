@@ -1,5 +1,5 @@
-import "./index.scss";
-import "./app.scss";
+import "./index.css";
+import "./app.css";
 function App() {
   return (
     <div className="page">
