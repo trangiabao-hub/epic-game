@@ -6,7 +6,7 @@
 .page__left {
   width: 300px;
   height: 100%;
-  padding: 20px 40px;
+  padding: 20px 20px;
 }
 .page__left .img {
   display: flex;
@@ -36,12 +36,18 @@
 .page__right {
   flex-grow: 1;
   height: 100%;
-  padding: 20px 0px;
+  padding: 20px;
+  overflow: scroll;
 }
 .page__right__header {
   display: flex;
   gap: 20px;
   align-items: center;
+  position: sticky;
+  top: -20px;
+  z-index: 100;
+  background-color: #121212;
+  padding: 20px;
 }
 .page__right__header .search {
   padding: 5px 15px;
@@ -77,7 +83,6 @@
   color: #eaeaea !important;
 }
 .page__right__bg {
-  margin-top: 30px;
   display: flex;
   gap: 20px;
 }

@@ -1,5 +1,6 @@
 import "./index.css";
 import "./app.css";
+import ListMovie from "./component/list-movie";
 function App() {
   return (
     <div className="page">
@@ -106,6 +107,10 @@ function App() {
               <h3>Halloween Sale 2023</h3>
             </div>
           </div>
+        </div>
+
+        <div className="page__right__list">
+          <ListMovie/>
         </div>
       </div>
     </div>
