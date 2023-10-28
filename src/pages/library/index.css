@@ -1,0 +1,22 @@
+.library-page h1 {
+  font-weight: 400;
+}
+
+.tabs {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.tab h3 {
+  font-weight: 400;
+}
+
+.tab {
+  padding: 5px 30px;
+  cursor: pointer;
+}
+
+.tab.active {
+  border-bottom: 1px solid lightgray;
+}

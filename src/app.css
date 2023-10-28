@@ -6,6 +6,7 @@
 .page__left {
   width: 300px;
   height: 100%;
+  min-width: 300px;
   padding: 20px 20px;
 }
 .page__left .img {
@@ -22,6 +23,13 @@
   transition: all 0.3s;
   margin: 3px 0;
 }
+
+.page__left ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px 25px;
+  display: block;
+}
 .page__left ul li.active {
   background-color: #202020;
 }
@@ -31,13 +39,13 @@
 .page__left ul li h3 {
   font-weight: 500;
   font-size: 15px;
-  padding: 20px 25px;
 }
 .page__right {
   flex-grow: 1;
   height: 100%;
   padding: 20px;
   overflow: scroll;
+  max-width: 100%;
 }
 .page__right__header {
   display: flex;
@@ -124,4 +132,9 @@
 .page__right__bg .bar .item h3 {
   font-size: 15px;
   font-weight: 400;
+}
+
+.free-game {
+  padding: 20px 30px;
+  background-color: rgb(46, 45, 45);
 }
